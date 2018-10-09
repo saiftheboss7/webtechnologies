@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Form Input</title>
+  <style>
+  p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 125%;
+    }
+    * {    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    h1 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 300;
+      font-size: 3em;
+      line-height: 100%;
+    }
+    h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 300;
+      font-size: 2.8em;
+      line-height: 50%;
+    }
+    img {
+      display: block;
+    }
+	tr {line-height:200%;}
+  </style>
+ 
+</head>
+
+<body style="background: color #f5f5f5;">
+  <hr>
+  <a href="index.html">Intro</a> | <a href="education.html">Education</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a>
+  <hr>
+
+  <h1>Welcome to Forms</h1>
+  <form name="contactform" action="output.php" method="POST">
+
+    <table>
+    <tr>
+        <td>Username:  <input type="text" name="uname" /></td>
+    </tr>
+
+	
+	<tr>
+        <td>Fullname:  <input type="text" name="fname" /></td>
+    </tr>
+   
+	
+    <tr>
+        <td>Email: <input type="email" name="email" /></td>
+    </tr>
+	
+	<tr>
+        <td>Phone: <input type="text" name="phone" /></td>
+    </tr>
+	
+	<tr>
+        <td>Password: <input type="password" name="password" /></td>
+    </tr>
+	
+	<tr>
+        <td>Confirm Password: <input type="password" name="password" /></td>
+    </tr>
+	
+	<tr>
+        <td>Gender: <input type="radio" name="gender" value="Male"/> Male
+		<input type="radio" name="gender" value="Female"/> Female
+		</td>
+    </tr>
+	
+	<tr>
+        <td>Education: <br/>
+		<input type="checkbox" name="education[]" value="SSC">SSC<br>
+		<input type="checkbox" name="education[]" value="HSC">HSC<br>
+		<input type="checkbox" name="education[]" value="BSC">BSC<br>
+		<input type="checkbox" name="education[]" value="MSC">MSC<br>
+		</td>
+    </tr>
+    </table>
+    <input type="submit" value="Submit"/>
+
+  </form>
+</body>
+</html>
