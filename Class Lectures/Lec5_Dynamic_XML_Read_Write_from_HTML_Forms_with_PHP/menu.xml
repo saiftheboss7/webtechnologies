@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<information>
+  <userdata>
+    <menu>Italianasd</menu>
+    <item>Pizzaa</item>
+    <price>796</price>
+  </userdata>
+  <userdata>
+    <menu>Italianasd</menu>
+    <item>Pizzaa</item>
+    <price>790</price>
+  </userdata>
+  <userdata>
+    <menu>Italiana</menu>
+    <item>Pizzaa</item>
+    <price>800</price>
+  </userdata>
+  <userdata>
+    <menu>Chienese</menu>
+    <item>Fried Rice</item>
+    <price>180</price>
+  </userdata>
+  <userdata>
+    <menu>Chienese</menu>
+    <item>Fried Rice</item>
+    <price>1800</price>
+  </userdata>
+</information>
