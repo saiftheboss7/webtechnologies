@@ -1,4 +1,9 @@
-#Exam System
+# Online Exam System
 
-$ Technology used: php, mysql, jquery, css, html
+## Technology used
+* php
+* mysql
+* jquery
+* css
+* html
 
